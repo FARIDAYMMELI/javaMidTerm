@@ -24,3 +24,7 @@ public interface Employee {
 	public void benefitLayout();
 
 }
+
+ abstract class Requiremnts implements Employee{
+  public abstract void check();
+}

@@ -1,5 +1,5 @@
 package math.problems;
-
+import java.util.Scanner;
 public class Pattern {
 
 	public static void main(String[] args) {
@@ -8,6 +8,20 @@ public class Pattern {
 		 *
 		 *
 		 */
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter starting number: ");
+		int n = in.nextInt();
+		int i = 0, dec = 1;
+		while (n > 0) {
+			n -= dec;
+			i++;
+			System.out.print(n + ", ");
+			if (i == 10) {
+				System.out.println("");
+				i = 0;
+				dec++;
+			}
+		}
 		
 
 

@@ -5,6 +5,7 @@ import databases.ConnectToSqlDB;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class LowestNumber {
 
 	public static void main(String[] args) {
@@ -31,4 +32,6 @@ public class LowestNumber {
 		}
 	}
 
+	public static int lowest(int[] low1) {
+	return 0;}
 }
